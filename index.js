@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
   origin:["https://authentication-ten-cyan.vercel.app"],
-  methods:["POST","GET","UPDATE","PUT","DELETE"],
+  methods:["POST","GET","PATCH","PUT","DELETE"],
   credentials:true
 }));
 
