@@ -12,7 +12,7 @@ DatabaseConnection();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(cors({
-  origin:["https://authentication-ten-cyan.vercel.app"],
+  origin:["https://authentication-ten-cyan.vercel.app","http://localhost:5173"],
   methods:["POST","GET","PATCH","PUT","DELETE"],
   credentials:true
 }));
